@@ -16,6 +16,7 @@ host_os_distributions:
     - "bookworm"
   openEuler:
     - "22.03"
+    - "24.03"
   Rocky:
     - "9"
   Ubuntu:

@@ -1172,7 +1172,8 @@ distro_python_version_map: {
   "centos": "3.9",
   "debian": "3.9",
   "rocky": "3.9",
-  "ubuntu": "3.10"
+  "ubuntu": "3.10",
+  "openeuler": "3.11"
 }
 
 kolla_base_distro_version_default_map: {
@@ -1180,6 +1181,7 @@ kolla_base_distro_version_default_map: {
   "debian": "bullseye",
   "rocky": "9",
   "ubuntu": "jammy",
+  "openeuler": "24.03"
 }
 
 distro_python_version: "{{ distro_python_version_map[kolla_base_distro] }}"

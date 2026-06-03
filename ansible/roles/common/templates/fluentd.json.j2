@@ -1,7 +1,7 @@
-{% set fluentd_user = 'td-agent' %}
-{% set fluentd_dir = '/etc/td-agent' %}
-{% set fluentd_conf = 'td-agent.conf' %}
-{% set fluentd_cmd = '/usr/sbin/td-agent' %}
+{% set fluentd_user = 'fluentd' %}
+{% set fluentd_dir = '/etc/fluent/' %}
+{% set fluentd_conf = 'fluent.conf' %}
+{% set fluentd_cmd = '/usr/bin/fluentd' %}
 
 {
     "command": "{{ fluentd_cmd }} -o /var/log/kolla/fluentd/fluentd.log",
