@@ -1,0 +1,5 @@
+---
+features:
+  - |
+    Adds support for openEuler 24.03 LTS SP4 as a host operating system and
+    as the ``openeuler`` Kolla image base distribution.

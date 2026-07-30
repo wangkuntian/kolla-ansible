@@ -15,6 +15,9 @@ host_os_distributions:
   Debian:
     - "bookworm"
     - "trixie"
+  openEuler:
+    - "24.03"
+    - "LTS-SP4"
   Rocky:
     - "10"
   Ubuntu:

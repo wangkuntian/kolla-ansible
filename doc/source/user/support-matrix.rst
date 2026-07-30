@@ -15,6 +15,7 @@ Kolla Ansible supports the following host Operating Systems (OS):
 
 * CentOS Stream 10
 * Debian Trixie (13)
+* openEuler 24.03 LTS SP4
 * Rocky Linux 10
 * Ubuntu Noble (24.04)
 
@@ -26,6 +27,7 @@ OS distribution. The following values are supported for ``kolla_base_distro``:
 
 * ``centos``
 * ``debian``
+* ``openeuler``
 * ``rocky``
 * ``ubuntu``
 

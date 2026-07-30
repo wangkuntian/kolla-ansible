@@ -176,7 +176,7 @@ config_owner_group: "root"
 # Valid options are [ COPY_ONCE, COPY_ALWAYS ]
 config_strategy: "COPY_ALWAYS"
 
-# Valid options are ['centos', 'debian', 'rocky', 'ubuntu']
+# Valid options are ['centos', 'debian', 'openeuler', 'rocky', 'ubuntu']
 kolla_base_distro: "rocky"
 
 kolla_internal_vip_address: "{{ kolla_internal_address | default('') }}"
@@ -226,6 +226,7 @@ kolla_container_engine: "docker"
 kolla_base_distro_version_default_map: {
   "centos": "stream10",
   "debian": "trixie",
+  "openeuler": "24.03-lts-sp4",
   "rocky": "10",
   "ubuntu": "noble",
 }
